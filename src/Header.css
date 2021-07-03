@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    position: fixed; /*static====>always on top if scrolled*/
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 999; /*always ojn the top*/
+    justify-content: space-between;
+
+    /*Animation*/
+    transition-timing-function: ease-in;
+    transition: all 0.5;
+}
+
+.headerLogo{
+    position: fixed;
+   object-fit: contain;
+   width: 100px;
+   left: 20px;
+}
+
+.headerUserLogo{
+    position: fixed;
+    object-fit: contain;
+   width: 50px;
+   right: 20px;
+}
+
+.header__black {
+    background-color: #111;
+    height: 15px;
+  }
+  
+ 
+  
